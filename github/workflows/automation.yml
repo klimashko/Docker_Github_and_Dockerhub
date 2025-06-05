@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          # С каким тегом будет загружен образ
+          # С каким тегом будет загружен образ klimashko108 - это мой логин в docker hub
           # Переменные тоже поддерживаются
           tags: klimashko108/docker-github-and-dockerhub:latest
