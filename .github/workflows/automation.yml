@@ -1,5 +1,5 @@
 # Название воркфлоу. Выбирайте на свой вкус
-name: "docker-.github-and-dockerhub"
+name: "github-and-dockerhub"
 
 # Триггеры ( = условия), при которых воркфлоу сработает
 # В данном случае: на каждый пуш в ветку main
@@ -31,4 +31,4 @@ jobs:
           push: true
           # С каким тегом будет загружен образ klimashko108 - это мой логин в Docker hub
           # Переменные тоже поддерживаются
-          tags: klimashko108/docker-.github-and-dockerhub:latest
+          tags: klimashko108/github-and-dockerhub:latest
