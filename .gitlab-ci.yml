@@ -16,7 +16,7 @@ docker-build:
     - docker push "$DOCKER_IMAGE_NAME"
   # небольшое отличие от GitHub-версии:
   # пайплайн запустится только тогда, когда
-  # в репозитории будет файл Dockerfile
+  # в репозитории будет файл Dockerfile.
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
       exists:
